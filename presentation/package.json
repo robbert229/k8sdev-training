@@ -32,6 +32,6 @@
   "devDependencies": {
     "spectacle-renderer": "0.0.3",
     "terser": "3.16.1",
-    "terser-webpack-plugin": "^1.2.2"
+    "terser-webpack-plugin": "^2.3.2"
   }
 }
