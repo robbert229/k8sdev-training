@@ -17,60 +17,62 @@ export default function () {
                 <ListItem>
                     <Link
                         target="_blank"
-                        href="https://github.com/robbert229/observability-training"
+                        href="https://docs.docker.com/install/"
                     >
-                        Slides & Code Examples
+                        Install Docker Engine (Linux)
+                    </Link>
+                </ListItem>
+            
+                <ListItem>
+                    <Link
+                        target="_blank"
+                        href="https://kubernetes.io/docs/tasks/tools/install-minikube/"
+                    >
+                        Install Minikube (Linux)
                     </Link>
                 </ListItem>
                 <ListItem>
                     <Link
                         target="_blank"
-                        href="https://blog.twitter.com/engineering/en_us/a/2013/observability-at-twitter.html"
+                        href="https://docs.docker.com/docker-for-windows/install/"
                     >
-                        Observability at Twitter (part 1)
+                        Install docker Desktop on Windows (Windows)
                     </Link>
-                </ListItem>
+                </ListItem>   
                 <ListItem>
                     <Link
                         target="_blank"
-                        href="https://blog.twitter.com/engineering/en_us/a/2016/observability-at-twitter-technical-overview-part-i.html"
+                        href="https://docs.microsoft.com/en-us/windows/wsl/install-win10"
                     >
-                        Observability at Twitter (part 2)
-                    </Link>
-                </ListItem>
+                        Install WSL (Windows)
+                    </Link>   
+                </ListItem>    
                 <ListItem>
                     <Link
                         target="_blank"
-                        href="https://peter.bourgon.org/blog/2017/02/21/metrics-tracing-and-logging.html"
+                        href="https://docs.tilt.dev/"
                     >
-                        Metrics, Tracing, and Logging
-                    </Link>
-                </ListItem>
+                        Tilt Documentation
+                    </Link>   
+                </ListItem>  
                 <ListItem>
                     <Link
                         target="_blank"
-                        href="https://grafana.com/blog/2018/08/02/the-red-method-how-to-instrument-your-services/"
+                        href="https://helm.sh/docs/"
                     >
-                        The RED Method
-                    </Link>
-                </ListItem>
+                        Helm Documentation
+                    </Link>   
+                </ListItem>  
+
                 <ListItem>
                     <Link
                         target="_blank"
-                        href="http://www.brendangregg.com/usemethod.html"
+                        href="https://kubernetes.io/docs/home/"
                     >
-                        The USE Method
-                    </Link>
-                </ListItem>
-                <ListItem>
-                    <Link
-                        target="_blank"
-                        href="https://www.olivercoding.com/2018-07-22-prometheus-dotnetcore/"
-                    >
-                        Promethues With DotNetCore
-                    </Link>
-                </ListItem>
-                
+                        Kubernetes Documentation
+                    </Link>   
+                </ListItem>  
+
             </List>
         </Slide>
     );

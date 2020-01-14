@@ -6,7 +6,9 @@
   "dependencies": {
     "react": "16.8.1",
     "react-dom": "16.8.1",
-    "spectacle-scripts": "2.3.0"
+    "react-typist": "^2.0.5",
+    "spectacle-scripts": "2.3.0",
+    "spectacle-terminal": "^0.5.0"
   },
   "scripts": {
     "start": "react-scripts start",

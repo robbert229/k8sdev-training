@@ -1,32 +1,46 @@
 import React from "react";
-import { Heading, Slide, Text } from "spectacle";
+import { Heading, Slide, Text, Link } from "spectacle";
 import { Logo } from "./components/Logo";
 
 const notes = ` 
-    Hello my name is John Rowley. I'm a Software Engineer at SEL were I work on internal applications. Today I will be 
-    talking about the concept of observability in systems.
-    <br />
-    It used to be that you just deployed a system to a server and called it a day. Nowadays we are 
-    deploying applications to the cloud, outside of our own datacenters. In these data centers we may have 
-    higher latency, we may not have ssh access to the machines that are running our programs. There 
-    may be outages or partial outages in services like S3, that render portions of our systems unavailable.
+The goal of this presentation is to introduce kubernete's yaml files, helm, and tilt. This is a lot to try to go over, but don't worry I have a link to these slides here, and there are additional links to supplimental documentation throughout this presentation. So please go ahead and grab that QR or url and head over to the repository if you want to follow the links.
 `;
 
 export default function() {
   return (
     <Slide bgColor="primary" textAlign="center" notes={notes}>
       <Heading size={4} textColor="secondary" caps lineHeight={1.2}>
-        Introduction to
-        <br />
-        Observability      
+        Making sense of application development in Kubernetes
       </Heading>
       <Text small textColor="secondary" textSize="2rem" style={{ marginTop: 10 }}>
-        with Prometheus, Grafana, and Jaeger
+        using Helm, Tilt, and lots of Yaml
       </Text>
 
-      <Text bold textColor="tertiary" textSize="2rem" style={{ marginTop: 50 }}>
+      <Text 
+        bold 
+        textColor="tertiary" 
+        textSize="2rem" 
+        style={{ marginTop: 50 }}
+      >
         John Rowley
       </Text>
+
+      <div style={{
+        display: "grid",
+        gridTemplateColumns: '20% 80%',
+        gridTemplateRows: 'auto',
+        alignItems: 'center',
+      }}>
+        <img src={require("./media/qr.png")} alt="SEL Logo" />
+
+        <Link href="https://github.com/robbert229/k8sdev-training">
+          <Text>
+            https://github.com/robbert229/k8sdev-training
+          </Text>
+        </Link>
+      </div>
+
+      <br/>
 
       <Logo />
     </Slide>
