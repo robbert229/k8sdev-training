@@ -1,7 +1,6 @@
 import React from "react";
-import { Appear, Image, Slide, Text, List, ListItem, SlideSet } from "spectacle";
+import { Appear, Slide, Text, List, ListItem, SlideSet } from "spectacle";
 import Terminal from "spectacle-terminal";
-import Typist from "react-typist";
 import Title from './components/Title';
 import Type from './components/Type';
 
@@ -26,11 +25,6 @@ kubernetes, even for development.</p>
 <p>* <b>kubernetes features</b>. Kubernetes has a lot of features. Service Discovery, Configuration 
 Management, Sidecars, etc. 
 </p>
-`;
-
-const buildNotes = `
-But before we can deploy our containers to any kubernetes cluster, we need to 
-build them. Lets do this by hand. And before I continue let me just say... its a pain.
 `;
 
 export default function() {

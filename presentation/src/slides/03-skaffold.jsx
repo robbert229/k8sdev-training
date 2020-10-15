@@ -1,11 +1,8 @@
 import React from "react";
-import { Appear, Image, Slide, CodePane, Text, List, ListItem, Quote, BlockQuote, Cite, SlideSet, Link, Code } from "spectacle";
+import { Appear, Slide, CodePane, Text, List, ListItem, SlideSet } from "spectacle";
 import Terminal from "spectacle-terminal";
-import Typist from "react-typist";
 import Title from './components/Title';
 import Type from './components/Type';
-
-const cursor = { show: false, blink: true, element: "|", hideWhenDone: false, hideWhenDoneDelay: 1000 };
 
 const yamlNotes = `
 <p>before we get into these tools, lets look at why a number of them exist. Lets do that by not using any new tools</p>

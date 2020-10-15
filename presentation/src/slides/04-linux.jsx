@@ -1,5 +1,5 @@
 import React from "react";
-import { Appear, Image, Slide, Text, List, ListItem, Quote, BlockQuote, Cite, SlideSet, Link, Code } from "spectacle";
+import { Slide, Text, List, ListItem, SlideSet, Link } from "spectacle";
 import Terminal from "spectacle-terminal";
 import Title from './components/Title';
 import Type from './components/Type';
