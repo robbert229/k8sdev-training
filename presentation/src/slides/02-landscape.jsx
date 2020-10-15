@@ -1,23 +1,17 @@
 import React from "react";
 import { 
     Appear, 
-    Image, 
     Slide, 
     Text, 
     List, 
     ListItem, 
-    Quote, 
-    BlockQuote,
-     Cite,
-     SlideSet
+    SlideSet
 } from "spectacle";
 import Title from './components/Title';
 
-const notes = `
+const notes = ``;
 
-`;
-
-const items = ['Docker', 'Ksonnet', 'Kustomize', 'Sidecars', 'Helm', 'Skaffold', 'Draft', 'Garden'];
+const items = ['Docker', 'Ksonnet', 'Kustomize', 'Sidecars', 'Helm', 'Skaffold', 'Draft', 'Garden', 'Tilt', 'Argocd', 'Flux'];
 
 export default function() {
     return (
@@ -42,7 +36,7 @@ export default function() {
             <Slide textAlign="center" notes={notes}>
                 <Title>The landscape is vast</Title>
 
-                <img src={require('./media/landscape.PNG')} />
+                <img src={require('./media/landscape.PNG')} alt="Cloud Native Computing Foundation Landscape" />
             </Slide>
         </SlideSet>
     );
